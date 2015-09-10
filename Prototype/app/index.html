@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-mobile-1.4.5.css">
+    <link rel="stylesheet" type="text/css" href="css/prototype.css">
+    <title>Prototyping with RWD</title>
+</head>
+<body>
+	<div id="targetApplication">
+        <div data-bind="template:'customer-welcome'" data-role="page" id="customerWelcome"></div>
+        <div data-bind="template:'customer-complete'" data-role="page" id="customerComplete"></div>
+	</div>    
+    <script data-main="prototype-config" src="js/lib/require.js"></script>
+</body>
+</html>
